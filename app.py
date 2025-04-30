@@ -391,25 +391,24 @@ else:
                 'challenge_category', 'industry_vertical'
             ]].copy()
             
-            # Add a select button
-            contact_df['actions'] = "View Details"
-            
-            # Display the dataframe with clickable rows
-            selection = st.dataframe(
+            # Display the dataframe with contact information
+            st.dataframe(
                 contact_df.drop(columns=['contact_id']),
-                use_container_width=True,
-                column_config={
-                    "actions": st.column_config.ButtonColumn(
-                        "Actions",
-                        help="Click to view contact details"
-                    )
-                }
+                use_container_width=True
             )
             
-            # Handle row selection
-            if selection.clicked_rows:
-                selected_index = selection.clicked_rows[0]
-                selected_contact_id = contact_df.loc[selected_index, 'contact_id']
+            # Create a selectbox to choose contacts
+            contact_options = [(row['contact_id'], f"{row['full_name']} ({row['role']})") 
+                               for _, row in contact_df.iterrows()]
+            contact_dict = {id: name for id, name in contact_options}
+            
+            selected_contact_id = st.selectbox(
+                "Select a contact to view details:",
+                options=[id for id, _ in contact_options],
+                format_func=lambda x: contact_dict[x]
+            )
+            
+            if st.button("View Contact Details"):
                 st.session_state.selected_contact = selected_contact_id
                 st.session_state.current_view = "contact"
                 st.rerun()
