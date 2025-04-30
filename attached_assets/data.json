@@ -1,0 +1,4183 @@
+[
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000032912193364889",
+          "basic_info": {
+            "full_name": "Ivana Contreras",
+            "company": "",
+            "role": "Designer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Understand the client needs and style to provide a design he likes",
+            "category": "Customer Retention",
+            "keywords": [
+              "client needs",
+              "style",
+              "understand",
+              "preferences",
+              "design"
+            ],
+            "severity_level": "High",
+            "impact_area": "Customer Experience"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 25,
+            "completed_activities": [
+              "Initial giveaway entry (name, email)"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 65,
+            "response_pattern": "Quick responses with brief but clear answers to prompts; responded to requested info immediately.",
+            "interested_features": [
+              "Giveaway entry",
+              "Prize draw participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Difficult to understand client needs",
+              "Aligning design with client style"
+            ],
+            "satisfaction_signals": [
+              "Prompt participation",
+              "Willingness to share contact"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Design",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Prompt for phone verification, then offer a resource or webinar on understanding client needs in design.",
+            "suggested_content": "Case study or guide: 'How to Accurately Assess and Meet Client Style Preferences in Interior Design.'",
+            "ideal_follow_up_time": "Within 24 hours of initial engagement",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Tips for client style discovery",
+              "Value of tailored design consultations",
+              "Overview of giveaway next steps"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "60 days",
+            "objections_to_address": [
+              "Unclear if additional solutions/services are relevant beyond giveaway"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000578074199119810",
+          "basic_info": {
+            "full_name": "Carolyn Mackie",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is that their technology for marketing is out of date.",
+            "category": "Marketing Technology",
+            "keywords": [
+              "outdated",
+              "technology",
+              "marketing"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 70,
+            "completed_activities": [
+              "Name & contact entry",
+              "Phone verification",
+              "Website submission",
+              "Photo/image challenge",
+              "Trivia question"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Consistently fast, succinct responses; follows each prompt immediately; brief but complete.",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaway/contest participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "outdated marketing tech"
+            ],
+            "satisfaction_signals": [
+              "prompt engagement",
+              "expressed readiness to proceed"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Textiles or Furniture (implied by culpexpress.com/cv, participation in High Point Market)",
+            "tech_adoption_level": "Laggard",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call focused on modern marketing technology solutions.",
+            "suggested_content": "Personalized content on upgrading outdated marketing tech and case studies of marketing tech transformation in the textiles/furniture industry.",
+            "ideal_follow_up_time": "Within 24 hours (engagement pattern suggests immediate interest)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Pain point: outdated marketing technology",
+              "Benefits of modern marketing automation/AI in their vertical",
+              "Quick wins and ROI from marketing tech upgrades"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Concerns about implementation of new technology",
+              "Potential learning curve/training"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000153683994014955",
+          "basic_info": {
+            "full_name": "Miya Harrison",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Marketing",
+            "category": "Lead Generation",
+            "keywords": [
+              "marketing",
+              "no website",
+              "no social media"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "name submission",
+              "email submission",
+              "role selection",
+              "main challenge input",
+              "phone verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 65,
+            "response_pattern": "Quick, very brief answers with reluctance to elaborate or provide detail",
+            "interested_features": [
+              "giveaway registration",
+              "phone verification"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 3,
+            "pain_points": [
+              "lack of marketing strategy",
+              "no digital presence",
+              "discomfort with sharing business details"
+            ],
+            "satisfaction_signals": [
+              "completed verification",
+              "provided contact info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Furniture Retail",
+            "tech_adoption_level": "Laggard",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer a simple, no-pressure marketing starter kit or guide designed for brick-and-mortar stores with no digital presence.",
+            "suggested_content": "Beginner's guide to marketing for local furniture stores, including easy steps for getting started with digital and non-digital options.",
+            "ideal_follow_up_time": "48-72 hours after initial registration, during standard business hours.",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "The benefits of even a basic web presence for local businesses",
+              "Simple marketing tactics that do not require social media",
+              "How winning the giveaway could help jumpstart marketing initiatives"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Reluctance to use digital marketing",
+              "No website or social media presence"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000657718660688471",
+          "basic_info": {
+            "full_name": "Hector Daza",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Finding new clients",
+            "category": "Lead Generation",
+            "keywords": [
+              "finding",
+              "new clients",
+              "prospects"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "Submitted name and email",
+              "Provided role",
+              "Stated main challenge",
+              "Shared phone number",
+              "Entered confirmation code"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 75,
+            "response_pattern": "Quick, concise responses to each prompt; actively completed each step requested until verification failed.",
+            "interested_features": [
+              "Giveaway entry",
+              "Lead verification"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Difficulty acquiring new customers"
+            ],
+            "satisfaction_signals": [
+              "Quick responses",
+              "Willing to provide information"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Manually verify contact or guide Hector through the confirmation process; offer tailored resources on lead generation.",
+            "suggested_content": "Lead generation tips, marketing automation tools, case studies for small business client acquisition.",
+            "ideal_follow_up_time": "Next business day, preferably morning",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Assistance with finding new clients",
+              "Resources or tools for effective lead generation",
+              "Resolving onboarding or verification issues"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Difficulty with initial verification/login process"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000888120919617962",
+          "basic_info": {
+            "full_name": "Sharon Dorris",
+            "company": "",
+            "role": "Marketing Executive"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is getting sales on the internet.",
+            "category": "Lead Generation",
+            "keywords": [
+              "sales",
+              "internet",
+              "ecommerce",
+              "online",
+              "growth"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "Entered name, email, phone verification, and website",
+              "Image challenge - uploaded photo of sofa",
+              "Answered trivia",
+              "Arrived at Orbit Booth and uploaded selfie",
+              "Completed post-hunt survey"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Very responsive and engaged; consistently replied within minutes; responses matched prompts and were generally succinct but on-topic.",
+            "interested_features": [
+              "AI sales assistant",
+              "Event scavenger challenges"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 10,
+            "pain_points": [
+              "Slides with too much content",
+              "Difficulty getting online sales"
+            ],
+            "satisfaction_signals": [
+              "Rated experience 10/10",
+              "More likely to explore AI after experience"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Home furnishings/rugs",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a follow-up email with practical tips for boosting online sales using AI, along with a tailored offer or demo invite.",
+            "suggested_content": "AI-powered ecommerce success case studies, concise guides to increasing online sales, and webinar invitations for digital marketing tools.",
+            "ideal_follow_up_time": "Within 48 hours (morning hours, as user was active then)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI assistants can directly drive ecommerce sales",
+              "Simplifying digital marketing for small businesses",
+              "Tailored solutions for online retail conversion"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Information overload in presentations",
+              "Potential skepticism about effectiveness of new technology"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000737977513070928",
+          "basic_info": {
+            "full_name": "Richard",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is internet sales.",
+            "category": "Lead Generation",
+            "keywords": [
+              "internet sales",
+              "online",
+              "sales",
+              "website"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Provided email",
+              "Shared role",
+              "Described business challenge",
+              "Shared phone number",
+              "Verified SMS OTP",
+              "Provided website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Very quick responses, short but clear answers to all prompts without delay.",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaway participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "internet sales"
+            ],
+            "satisfaction_signals": [
+              "Prompt responses",
+              "Complete information sharing"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Rugs/Carpets/Retail",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call to discuss specific online sales solutions and demonstrate AI sales assistant tailored to his business.",
+            "suggested_content": "Case study on increasing internet sales for small retail businesses using AI tools.",
+            "ideal_follow_up_time": "Within 24-48 hours of initial interaction (weekday morning to midday preferred).",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Specific pain point: boosting online sales",
+              "Benefit of AI sales assistants for small businesses",
+              "Quick-win strategies for immediate revenue lift"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Demonstrate ROI on AI sales assistant for online sales"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000585506445231589",
+          "basic_info": {
+            "full_name": "Jolina Roberson",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is marketing.",
+            "category": "Lead Generation",
+            "keywords": [
+              "marketing",
+              "visibility",
+              "customer acquisition"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Shared contact details",
+              "Verified phone with code",
+              "Provided business website",
+              "Arrived at IHFC Building",
+              "Completed Sofa image challenge",
+              "Answered trivia (attempted)",
+              "Arrived at Orbit Booth"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 96,
+            "response_pattern": "Immediate, concise replies; responds within 1-2 minutes to each prompt.",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaways",
+              "In-person event engagement"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 9,
+            "pain_points": [
+              "marketing challenges"
+            ],
+            "satisfaction_signals": [
+              "Prompt participation in activities",
+              "Positive emoji usage",
+              "Willingness to proceed through steps"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Retail/Home Furnishings",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a demo or discovery call to showcase AI-powered marketing/lead generation tools tailored for small retail/furnishings businesses.",
+            "suggested_content": "Personalized case study or guide on boosting marketing results for boutique retail/home furnishing owners.",
+            "ideal_follow_up_time": "Within 24-48 hours (late morning or early afternoon)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "How AI can help overcome marketing challenges",
+              "Success stories of retail business owners using similar solutions",
+              "Quick-win strategies to generate more leads and sales"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [
+              "Proving ROI of AI solutions",
+              "Simple setup and support for small businesses"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000695274493027650",
+          "basic_info": {
+            "full_name": "Emily Ware",
+            "company": "",
+            "role": "Buyer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is low turns.",
+            "category": "Customer Retention",
+            "keywords": [
+              "low turns",
+              "inventory",
+              "sell-through"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 70,
+            "completed_activities": [
+              "provided name/email",
+              "identified role",
+              "stated main challenge",
+              "shared phone number",
+              "verified OTP",
+              "provided website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick, concise, and cooperative responses, provided all requested details with minimal prompting.",
+            "interested_features": [
+              "AI sales assistant",
+              "giveaway participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 6,
+            "pain_points": [
+              "low inventory turns"
+            ],
+            "satisfaction_signals": [
+              "prompt responses",
+              "compliance with flow"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Furniture Retail",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Initiate a consultative call focused on strategies to increase inventory turns and showcase tailored AI solutions for retail inventory challenges.",
+            "suggested_content": "Case study on improving inventory turn rates using AI for furniture retailers, plus quick tips guide for buyers.",
+            "ideal_follow_up_time": "Within 24 hours (morning to mid-day preferred, US Central Time based on phone code)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Inventory optimization strategies",
+              "How AI can help boost product turns",
+              "Success stories from similar retailers"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "demonstrated ROI",
+              "ease of implementation"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000535588490582750",
+          "basic_info": {
+            "full_name": "Cody Rud",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is low sales.",
+            "category": "Lead Generation",
+            "keywords": [
+              "low sales",
+              "revenue",
+              "customers"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Name/email submission",
+              "Phone verification",
+              "Provided business website",
+              "Confirmed at booth",
+              "Started survey"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Very prompt, brief but direct responses to all prompts, proactive with follow-up questions.",
+            "interested_features": [
+              "AI sales assistant",
+              "$5,000 Giveaway",
+              "Survey participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "low sales"
+            ],
+            "satisfaction_signals": [
+              "actively engaged",
+              "continued to next steps"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Furniture/Interior Retail (based on pennymustard.com)",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized email with AI sales assistant use cases relevant to furniture sales, offer a short demo tailored to lead generation.",
+            "suggested_content": "Case studies or testimonials from similar-sized retailers who increased sales with AI-assisted lead generation.",
+            "ideal_follow_up_time": "Within 24-48 hours after event interaction",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Addressing low sales challenges with AI-driven lead generation",
+              "Quick wins from AI assistants for similar retailers",
+              "Scavenger hunt engagement and incentive follow-up"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Why in-person steps were required",
+              "How AI will directly raise sales"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000062207195941307",
+          "basic_info": {
+            "full_name": "Ruth Hymanson",
+            "company": "",
+            "role": "Designer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is assisting people with unreasonable budgets.",
+            "category": "Customer Retention",
+            "keywords": [
+              "unreasonable budgets",
+              "assisting",
+              "clients",
+              "budget constraints"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 70,
+            "completed_activities": [
+              "Giveaway registration",
+              "Name & email share",
+              "Role confirmation",
+              "Challenge submission",
+              "Phone verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 88,
+            "response_pattern": "Quick, concise responses; corrected errors proactively; followed each prompt closely.",
+            "interested_features": [
+              "$5,000 giveaway",
+              "AI sales assistant"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Dealing with clients with low or unrealistic budgets"
+            ],
+            "satisfaction_signals": [
+              "Thanked for help",
+              "Prompt and willing sharing of details"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Interior Design",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer personalized content with strategies for handling client budget objections and invite to a short consultation.",
+            "suggested_content": "Blog post or video: 'How Designers Can Win Big with Low-Budget Clients' and intro to AI-powered client qualification tools.",
+            "ideal_follow_up_time": "Within 1-2 days (late morning or early afternoon)",
+            "preferred_channel": "Text",
+            "key_talking_points": [
+              "Tips for qualifying clients with tight budgets",
+              "How an AI assistant can pre-screen leads",
+              "Invitation for further support or live demo"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Concern about clients with low budgets"
+            ],
+            "budget_indicator": "Limited budget",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000500011303623582",
+          "basic_info": {
+            "full_name": "noelle",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is assisting a buyer in their role as an assistant.",
+            "category": "Staff Training",
+            "keywords": [
+              "assisting",
+              "buyer",
+              "assistant"
+            ],
+            "severity_level": "Medium",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 75,
+            "completed_activities": [
+              "Registration (name, email)",
+              "Phone verification (OTP)",
+              "Company role/challenge disclosure",
+              "Arrived at event location prompt"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Very quick responses, short and to the point, answers provided almost instantly after each prompt.",
+            "interested_features": [
+              "Prize Giveaway",
+              "AI sales assistant",
+              "Event participation"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 6,
+            "pain_points": [
+              "Supporting a buyer effectively"
+            ],
+            "satisfaction_signals": [
+              "Prompt cooperation",
+              "Willingness to engage with process"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer resources or quick tutorials to help Noelle better support the buyer (possibly tools for assistants or workflow automation).",
+            "suggested_content": "Assistant best practices, guides on supporting buyers at trade shows, short videos on using AI assistants.",
+            "ideal_follow_up_time": "Within 24 hours after event registration (late morning or early afternoon).",
+            "preferred_channel": "Text",
+            "key_talking_points": [
+              "Ways to make supporting your buyer easier",
+              "New assistant-focused AI features/products",
+              "Quick tips for maximizing event ROI as an assistant"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Not the primary decision maker",
+              "Focuses on assisting, not purchasing"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Not decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000999789185091328",
+          "basic_info": {
+            "full_name": "Anna Chapman",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is marketing.",
+            "category": "Lead Generation",
+            "keywords": [
+              "marketing",
+              "customer acquisition",
+              "business growth"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "email share",
+              "phone verification",
+              "attended call",
+              "arrived at IHFC entrance",
+              "image challenge",
+              "trivia challenge",
+              "visited specific booth (1-727)",
+              "survey participation"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Prompt and concise responses, completed all required steps, enthusiastic acknowledgements, survey responses were thoughtful, only minimal delays.",
+            "interested_features": [
+              "AI sales assistant (AiPRL)",
+              "marketing support"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 9,
+            "pain_points": [
+              "marketing difficulties",
+              "brief lag in AI response"
+            ],
+            "satisfaction_signals": [
+              "positive feedback about AiPRL",
+              "rated experience 8/10",
+              "expressed enthusiasm for AI solutions"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized follow-up email offering marketing-focused AI solutions and a free consult/demo tailored for small business owners.",
+            "suggested_content": "Case study or short video on how AI assistants increased marketing ROI for small founder-led companies.",
+            "ideal_follow_up_time": "Within 24-48 hours",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "AI solutions for small business marketing",
+              "Rapid onboarding for users without a website",
+              "How AI assistants like AiPRL boost lead generation"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "AI response speed/accuracy improvements"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000683978754741884",
+          "basic_info": {
+            "full_name": "Elizabeth Burk",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "",
+            "category": "null",
+            "keywords": [
+              "null"
+            ],
+            "severity_level": "null",
+            "impact_area": "null"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 20,
+            "completed_activities": [
+              "Provided contact info"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 60,
+            "response_pattern": "Quick, brief responses; provided requested info with no additional detail.",
+            "interested_features": [
+              "Giveaway",
+              "Entry process"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 4,
+            "pain_points": [
+              "null"
+            ],
+            "satisfaction_signals": [
+              "Prompt engagement"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Unknown",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Prompt for specific business challenge or interest area to qualify needs.",
+            "suggested_content": "Introductory resources about the platform, giveaway updates, or simple surveys to gather challenge info.",
+            "ideal_follow_up_time": "Within 24 hours while interest is fresh.",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Invite to share main business challenge",
+              "Highlight potential benefits of $5,000 AI solutions",
+              "Share details about the next steps in the giveaway"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Unclear needs",
+              "Lack of provided business info"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000618851723528813",
+          "basic_info": {
+            "full_name": "Chaitanya",
+            "company": "",
+            "role": "Marketing Executive"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "1. Lead time \n2. Increase in Tariffs \n3. Delay in sampling due to too many categories and verticals. \n4. Production delay.",
+            "category": "Lead Generation",
+            "keywords": [
+              "lead time",
+              "tariffs",
+              "sampling delay",
+              "production delay"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Name and Email Submitted",
+              "Role Provided",
+              "Business Challenge Shared",
+              "Phone Number Submitted"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Very responsive, provided detailed answers quickly; actively engaged in each prompt.",
+            "interested_features": [
+              "Giveaway participation",
+              "Business challenge sharing"
+            ],
+            "conversation_depth": "Deep",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "lead time",
+              "tariffs",
+              "production delays",
+              "complex product categories"
+            ],
+            "satisfaction_signals": [
+              "engaged in process",
+              "responsive to all prompts"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Home Furnishings (inferred from High Point Market context and email domain)",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized email summarizing their challenges and offering resources or a tailored consultation addressing operational efficiencies.",
+            "suggested_content": "Case studies or articles on reducing lead times and optimizing production within home furnishings.",
+            "ideal_follow_up_time": "Within 24 hours (high recent engagement)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Solutions to lead time and production challenges",
+              "Strategies for managing tariffs and supply chain issues",
+              "Opportunities for streamlining sampling across categories"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Operational complexity",
+              "Potential technology support"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000621240752710490",
+          "basic_info": {
+            "full_name": "Dilsher",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Outreach",
+            "category": "Lead Generation",
+            "keywords": [
+              "outreach",
+              "prospecting",
+              "engagement"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 40,
+            "completed_activities": [
+              "provided name",
+              "provided email",
+              "shared role",
+              "shared main challenge"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 80,
+            "response_pattern": "Very quick to respond, answers are brief and to the point.",
+            "interested_features": [
+              "Giveaway entry",
+              "Prize eligibility"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 4,
+            "pain_points": [
+              "difficulty reaching prospects"
+            ],
+            "satisfaction_signals": [
+              "willingness to provide info",
+              "engaged with initial prompts"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Unknown",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Request phone number to complete registration, then offer targeted outreach/lead generation resources.",
+            "suggested_content": "Guide or playbook on effective outreach strategies, tips for increasing prospect engagement.",
+            "ideal_follow_up_time": "Within 24 hours of initial interaction",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Support for outreach challenges",
+              "Resources for prospecting",
+              "Eligibility for giveaway/prizing"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "60 days",
+            "objections_to_address": [
+              "Lack of detail on business needs",
+              "Uncertain company size or role"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000707120954672467",
+          "basic_info": {
+            "full_name": "Scott Lynn",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is awareness.",
+            "category": "Lead Generation",
+            "keywords": [
+              "awareness",
+              "visibility",
+              "reach"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Initial registration",
+              "Provided contact info",
+              "Role provided",
+              "Stated business challenge",
+              "Phone verification",
+              "Provided website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Very quick, direct, and responsive to all prompts, gave brief, relevant answers to all requests.",
+            "interested_features": [
+              "AI sales assistant",
+              "Prize draw"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "lack of awareness"
+            ],
+            "satisfaction_signals": [
+              "Willingness to engage",
+              "Quick completion of tasks"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer a tailored visibility/marketing audit and introduce high-ROI awareness solutions.",
+            "suggested_content": "Case study or guide on increasing business awareness using AI tools.",
+            "ideal_follow_up_time": "Within 24-48 hours (to match quick response pattern)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "How to increase awareness for your business",
+              "AI-driven lead generation strategies",
+              "Success stories from similar owners"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [
+              "No explicit objections noted; clarify budget and further needs"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000199012601165045",
+          "basic_info": {
+            "full_name": "Nolan Reynolds",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is membership renewal.",
+            "category": "Customer Retention",
+            "keywords": [
+              "membership",
+              "renewal",
+              "retention"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "registration",
+              "challenge description",
+              "phone verification",
+              "website share",
+              "directed to physical location"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Very quick, brief but clear responses to each prompt with little delay.",
+            "interested_features": [
+              "giveaway entry",
+              "AI assistant",
+              "physical scavenger hunt"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "membership renewal difficulty"
+            ],
+            "satisfaction_signals": [
+              "prompt compliance",
+              "expressed thanks",
+              "completion of multiple steps"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Membership Association",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized follow-up email referencing his membership renewal challenge and offer tools/resources for boosting renewals.",
+            "suggested_content": "Guide or case study on increasing membership retention; demo of AI renewal assistant.",
+            "ideal_follow_up_time": "Within 24-48 hours of event registration",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Address membership renewal challenge",
+              "Benefits of AI for renewal automation",
+              "Scavenger hunt participation and next steps"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "clarify AI solution's relevance to membership renewal"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000141656787099752",
+          "basic_info": {
+            "full_name": "Robert Gavigan Jr",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is customer traffic and quality employees.",
+            "category": "Lead Generation",
+            "keywords": [
+              "customer traffic",
+              "quality employees",
+              "hiring",
+              "staffing",
+              "recruitment"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "Registered for $5,000 AI Giveaway",
+              "Provided name, email, address, and phone",
+              "Submitted OTP for SMS verification",
+              "Shared business website",
+              "Completed photo/image challenge (Plaza Suites entrance)",
+              "Answered trivia question (1909)",
+              "Visited and proved arrival at Orbit Booth / HFA booth",
+              "Final survey questions (experience feedback, suggestions, rating)"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Very prompt replies, detailed on key questions, cooperative and engaged throughout.",
+            "interested_features": [
+              "AI sales assistant (April)",
+              "Giveaway participation",
+              "Onsite scavenger hunt"
+            ],
+            "conversation_depth": "Deep",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Improved",
+            "enthusiasm_level": 10,
+            "pain_points": [
+              "customer traffic",
+              "quality employees"
+            ],
+            "satisfaction_signals": [
+              "Immediate positive feedback on experience",
+              "Rated a 10/10",
+              "Expressed excitement about AI assistant"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Home Furnishings Retail",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Challenger"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Personalize a quick onboarding call/demo with April AI to deepen value and explore solutions for staffing and traffic; congratulate on contest participation.",
+            "suggested_content": "AI assistant case studies in furniture retail, hiring/staffing best practices, customer traffic strategies.",
+            "ideal_follow_up_time": "Within 24-48 hours during business hours (AM/early PM proven effective).",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Onboarding with April AI and success stories",
+              "Solutions to drive customer traffic and attract quality employees",
+              "Leverage AI to automate staffing and boost in-store experience"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [],
+            "budget_indicator": "Has budget",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000868774342551657",
+          "basic_info": {
+            "full_name": "Ryan Gavigan",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is ROAS (Return on Ad Spend).",
+            "category": "Marketing Technology",
+            "keywords": [
+              "ROAS",
+              "Return on Ad Spend",
+              "ad performance"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "Registration",
+              "Image challenge at IHFC",
+              "Trivia question",
+              "Visited Orbit Booth",
+              "Uploaded booth selfie",
+              "Final survey"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Responded promptly to nearly all prompts, with short and clear answers. Voluntarily initiated survey. Responses were generally brief but engaged.",
+            "interested_features": [
+              "AI sales assistant",
+              "Image-based challenges",
+              "In-person experience"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Improved",
+            "enthusiasm_level": 10,
+            "pain_points": [
+              "ROAS"
+            ],
+            "satisfaction_signals": [
+              "Called experience fun",
+              "Gave a 10/10 rating",
+              "Expressed intent to adopt AI"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Furniture Retail",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Challenger"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a tailored demo of AI sales and marketing solutions focused on improving ROAS.",
+            "suggested_content": "Case studies or video testimonials about AI increasing ROAS in furniture retail; quick-start guides to AI in showroom sales.",
+            "ideal_follow_up_time": "Within 24-48 hours after event (user is highly responsive and interested).",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can optimize ad spend and drive higher ROAS",
+              "Personalized AI assistant impact for furniture retailers",
+              "Onboarding process and expected time to results"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [],
+            "budget_indicator": "Has budget",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000599691908318013",
+          "basic_info": {
+            "full_name": "Mollie Bean",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is managing time.",
+            "category": "Staff Training",
+            "keywords": [
+              "time management",
+              "owner",
+              "efficiency"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "registration",
+              "role submission",
+              "challenge submission",
+              "phone verification",
+              "website submission"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Responded promptly and concisely to all prompts, provided information when requested, but answers were generally brief.",
+            "interested_features": [
+              "AI sales assistant",
+              "Prize entry"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "time management"
+            ],
+            "satisfaction_signals": [
+              "Quick responses",
+              "Willingness to engage in prompts"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send personalized tips or demo about AI/time-saving solutions tailored for small business owners.",
+            "suggested_content": "Guides on time management automation, benefits of AI sales assistants, and case studies from other small business owners.",
+            "ideal_follow_up_time": "Within 24-48 hours, preferably in the afternoon.",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can save owners time",
+              "Success stories of similar founders",
+              "Easy steps to implement automation"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Demonstrating ROI of AI for time management"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000176291625709947",
+          "basic_info": {
+            "full_name": "Kate Benson",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is that they are unsure about the biggest challenge they face in their business right now.",
+            "category": "Lead Generation",
+            "keywords": [
+              "unsure",
+              "challenge",
+              "business uncertainty"
+            ],
+            "severity_level": "Low",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Provided name and email",
+              "Provided role",
+              "Provided main challenge",
+              "Submitted phone number and verification code",
+              "Provided business website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick and concise responses to each prompt, with some brief/simple answers where allowed.",
+            "interested_features": [
+              "AI sales assistant",
+              "$5,000 prize giveaway"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 6,
+            "pain_points": [
+              "uncertainty",
+              "lack of clarity around business challenges"
+            ],
+            "satisfaction_signals": [
+              "Willingness to participate",
+              "Quick sharing of details"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Provide short diagnostic quiz or content to help clarify business challenges; offer intro to AI sales tools if interest is expressed.",
+            "suggested_content": "Personalized guide or checklist on typical business growth challenges and solutions; AI sales assistant explainer.",
+            "ideal_follow_up_time": "Within 24-48 hours (soon after event/webinar)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can clarify and solve business challenges",
+              "Quick intro to sales automation benefits",
+              "Invitation to discuss priorities as they become clearer"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Unclear pain points",
+              "Uncertain need"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000054495272368345",
+          "basic_info": {
+            "full_name": "Matthew Roach",
+            "company": "",
+            "role": "Buyer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Making sure I provide our Guest with the latest and greatest trends",
+            "category": "Competition",
+            "keywords": [
+              "latest trends",
+              "provide",
+              "guest",
+              "greatest trends"
+            ],
+            "severity_level": "High",
+            "impact_area": "Customer Experience"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Entry/registration",
+              "Provided contact details",
+              "Shared business challenge"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Immediate, concise, and direct responses to each prompt; no delays detected",
+            "interested_features": [
+              "Giveaway participation",
+              "Prompt contact sharing",
+              "Challenge sharing"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Staying current with trends",
+              "Meeting guest expectations"
+            ],
+            "satisfaction_signals": [
+              "Willingness to participate",
+              "Quick response",
+              "Prompt sharing of requested info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Retail or Hospitality (deduced from 'guest' reference)",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a tailored resource or trend report relevant to buyers and offer an intro call to discuss how to stay ahead of market trends.",
+            "suggested_content": "2024-2025 trend overview PDF, buyer best practices guide, or invitation to a trends-focused webinar.",
+            "ideal_follow_up_time": "Within 24 hours of initial engagement",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Support for staying on top of industry trends",
+              "Tools or resources for competitive intelligence",
+              "Benefits of proactive trend adoption"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Value of new technologies/trend services",
+              "Relevance of provided resources"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000498227919061677",
+          "basic_info": {
+            "full_name": "Lauren Roach",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is work and life balance.",
+            "category": "Staff Training",
+            "keywords": [
+              "work",
+              "life",
+              "balance"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 70,
+            "completed_activities": [
+              "Registration",
+              "Shared contact info",
+              "Phone verification",
+              "Arrived at IHFC Building entrance"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Very quick, concise answers; responded promptly to each prompt; provided information with minimal elaboration.",
+            "interested_features": [
+              "Prize entry",
+              "AI sales assistant"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "work-life balance"
+            ],
+            "satisfaction_signals": [
+              "Willing to complete steps",
+              "Positive completion of phone verification"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer a brief phone consultation focused on time management solutions or AI tools that support work-life balance.",
+            "suggested_content": "Short guide or video on 'How AI Can Help Improve Work-Life Balance for Busy Professionals'.",
+            "ideal_follow_up_time": "Within 1-3 days of initial engagement (afternoon hours)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "How AI assistants can automate routine tasks",
+              "Tips on setting boundaries and scheduling",
+              "Exclusive resources for High Point Market participants"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "No business website",
+              "Potential clarity on business needs"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000276275731329284",
+          "basic_info": {
+            "full_name": "Jay",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is low store traffic.",
+            "category": "Lead Generation",
+            "keywords": [
+              "store traffic",
+              "low",
+              "business"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Registration",
+              "Role submission",
+              "Main challenge shared",
+              "Contact info submitted (email/phone/OTP)",
+              "Business website shared"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 92,
+            "response_pattern": "Very quick, prompt, straight to the point; responses are brief but immediate",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaway entry"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "low store traffic"
+            ],
+            "satisfaction_signals": [
+              "completed all requests",
+              "engaged with prompts"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Retail (Furniture)",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Call to discuss solutions for increasing store traffic and outline how an AI sales assistant can drive more in-person visits.",
+            "suggested_content": "Personalized case study or success story on boosting store traffic with AI.",
+            "ideal_follow_up_time": "Within 24-48 hours",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Specific strategies to drive more store traffic",
+              "How AI assistants bring more customers in-store",
+              "Addressing their business’s unique needs based on location and segment"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Skepticism about solution effectiveness",
+              "Budget constraints (not explicitly mentioned but likely)"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000969435523836734",
+          "basic_info": {
+            "full_name": "Kathy",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Enough, Sales",
+            "category": "Lead Generation",
+            "keywords": [
+              "sales",
+              "lead generation",
+              "revenue"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 40,
+            "completed_activities": [
+              "Initial signup",
+              "Email provided",
+              "Role provided"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Quick, concise, and cooperative—responses were prompt but brief, answering all direct questions with minimal detail.",
+            "interested_features": [
+              "Giveaway entry"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 5,
+            "pain_points": [
+              "Low sales"
+            ],
+            "satisfaction_signals": [
+              "Prompt participation"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Reach out with targeted content addressing sales and lead generation strategies for small businesses.",
+            "suggested_content": "Short guide on boosting sales and effective lead generation techniques.",
+            "ideal_follow_up_time": "Within 24 hours of initial sign-up, preferably afternoon.",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Easy, actionable ways to increase sales",
+              "How AI can help small business lead generation",
+              "Invite to share more about specific sales challenges"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Unclear current solution",
+              "Might need more details on benefits"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000760846328774014",
+          "basic_info": {
+            "full_name": "Chara",
+            "company": "",
+            "role": "Designer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is staying current with trends in design.",
+            "category": "Competition",
+            "keywords": [
+              "trends",
+              "design",
+              "staying current"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "Arrival and location verification (IHFC Building entrance)",
+              "Photo challenge (Plaza Suites entrance)",
+              "Trivia challenge (first formal Southern Furniture Market year)",
+              "Booth visit (Orbit Booth, HFA retailer resource center booth 727)",
+              "Final Survey"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Mostly immediate, concise, direct answers; skipped only one prompt but resumed engagement quickly; overall highly attentive and responsive.",
+            "interested_features": [
+              "AI sales assistant",
+              "scavenger hunt/gamified experiences",
+              "AI for design business"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Improved",
+            "enthusiasm_level": 10,
+            "pain_points": [
+              "keeping up with design trends"
+            ],
+            "satisfaction_signals": [
+              "Described experience as 'great'",
+              "Gave a 10/10 rating",
+              "Expressed interest in incorporating AI"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Design",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Follower"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a tailored AI design trend resource pack and offer a brief AI consultation call.",
+            "suggested_content": "Content on AI-driven trend monitoring tools and applications for design professionals.",
+            "ideal_follow_up_time": "Within 1-3 days post-event (morning or early afternoon)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can help you spot design trends faster",
+              "Case studies/quick wins from designers using AI",
+              "Exclusive resources or discounts as a contest participant"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "None directly stated; may need practical examples of AI value"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000756698147854836",
+          "basic_info": {
+            "full_name": "Ana Cancio",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is marketing and advertising.",
+            "category": "Lead Generation",
+            "keywords": [
+              "marketing",
+              "advertising",
+              "growth"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "provided contact details",
+              "verified phone via OTP",
+              "engaged in phone call trigger",
+              "photo/image challenge at Plaza Suites",
+              "trivia question attempt",
+              "visited specific booth",
+              "final survey completed"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Very quick, responsive throughout, brief but on-topic answers, participated in all steps, asked clarifying questions proactively.",
+            "interested_features": [
+              "scavenger hunt challenges",
+              "giveaway participation",
+              "AI for business"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 10,
+            "pain_points": [
+              "confusion with photo instructions",
+              "refreshing the interface"
+            ],
+            "satisfaction_signals": [
+              "10/10 experience rating",
+              "positive feedback on fun factor",
+              "increased interest in AI"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer a targeted call or email to discuss specific marketing and advertising AI solutions relevant for small business owners.",
+            "suggested_content": "Case studies on AI-powered marketing for small businesses; demo invitations; tips for using AI in advertising.",
+            "ideal_follow_up_time": "Within 48 hours (afternoons preferred, based on engagement times)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can solve your current marketing and advertising challenges",
+              "Quick wins for small businesses using AI marketing tools",
+              "Support for implementation and onboarding with minimal effort"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "clarity of onboarding process",
+              "usability and technical hurdles (refresh issues)"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000625381661681937",
+          "basic_info": {
+            "full_name": "Gary Lewallen",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "",
+            "category": "null",
+            "keywords": [],
+            "severity_level": "null",
+            "impact_area": "null"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 20,
+            "completed_activities": [
+              "giveaway registration",
+              "shared contact information"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 70,
+            "response_pattern": "Prompt replies, brief answers; responded instantly to each prompt but provided minimal detail.",
+            "interested_features": [
+              "giveaway/contest entry"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 4,
+            "pain_points": [],
+            "satisfaction_signals": [
+              "Provided info readily",
+              "Polite response"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Unknown",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a follow-up email to clarify Gary's business role and elicit his main challenge for improved qualification.",
+            "suggested_content": "Personalized email prompting for business challenges, with a gentle reminder about the giveaway.",
+            "ideal_follow_up_time": "Within 48 hours of signup",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Thank Gary for registering and sharing contact info",
+              "Ask about his primary business challenge",
+              "Explain how tailored support could help him benefit from the contest"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Lack of challenge disclosure",
+              "Unclear business role"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000412737522925427",
+          "basic_info": {
+            "full_name": "Jamilia Johnson",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is tariffs.",
+            "category": "Competition",
+            "keywords": [
+              "tariffs",
+              "trade",
+              "import",
+              "costs"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "Entry/registration",
+              "Phone verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Very quick, brief but direct responses to each prompt. No delays between messages.",
+            "interested_features": [
+              "$5,000 prize draw",
+              "AI sales assistant",
+              "Market event participation"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "tariffs increasing costs"
+            ],
+            "satisfaction_signals": [
+              "Participated fully in onboarding",
+              "Willingly shared contact info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a call to discuss how AI-driven solutions can offset the impact of tariffs and increase margins.",
+            "suggested_content": "Case study or infographic showing how similar small businesses use AI to manage costs or tariffs.",
+            "ideal_follow_up_time": "Within 24 hours of initial contact, during business hours (afternoon preferred based on timestamp).",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Understanding their specific tariff pain points",
+              "Demonstrating ROI of AI tools in cost management",
+              "Exploring their openness to automating sales or back-end processes"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Uncertainty about AI impact on tariffs",
+              "No business website (possibly low tech resources)"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000486183127539175",
+          "basic_info": {
+            "full_name": "Emily barlow",
+            "company": "",
+            "role": "Buyer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is having too much business and too little time.",
+            "category": "Operations",
+            "keywords": [
+              "too much business",
+              "too little time",
+              "time management"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 70,
+            "completed_activities": [
+              "Entered name and email",
+              "Shared role",
+              "Described main challenge",
+              "Submitted phone and verified code",
+              "Answered survey (most fun, confusion, sentiment, improvements)"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 92,
+            "response_pattern": "Very fast, prompt, and concise replies to every message; generally brief but relevant responses.",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaway participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 9,
+            "pain_points": [
+              "Finding where everything is",
+              "Too little time"
+            ],
+            "satisfaction_signals": [
+              "Expressed enjoyment ('Shopping!!!')",
+              "Said 'Honestly nothing!' when asked for improvements",
+              "Stated 'Love ai'"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized follow-up email with time-saving AI solutions for busy buyers and request a short intro call.",
+            "suggested_content": "Value proposition content highlighting how AI can save time for busy professionals, plus case studies or testimonials.",
+            "ideal_follow_up_time": "Within 24-48 hours (weekdays, midday or early afternoon based on prompt response)",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI sales assistants save buyers time",
+              "Easy adoption—no website required",
+              "Invite to learn more about real-world use cases"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "No website",
+              "Reluctance to participate in on-site activities"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000938168237134527",
+          "basic_info": {
+            "full_name": "Sarah Ressler",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is strategy.",
+            "category": "Competition",
+            "keywords": [
+              "strategy",
+              "growth",
+              "planning"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "registration",
+              "role disclosure",
+              "challenge identification",
+              "phone verification",
+              "website submission"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Extremely quick, concise, and cooperative responses to every prompt; willingly shared requested information.",
+            "interested_features": [
+              "contest participation",
+              "AI sales assistant"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "lack of clear strategy"
+            ],
+            "satisfaction_signals": [
+              "completed all prompts",
+              "positive reactions to features"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Large",
+            "industry_vertical": "Furniture/Retail",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Leader"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call to discuss specific strategic challenges and potential AI solutions tailored to the furniture/retail sector.",
+            "suggested_content": "Send a customizable success-story case study on AI-driven strategy improvements for furniture retailers.",
+            "ideal_follow_up_time": "Within 24-48 hours of initial interaction",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Pain point around strategic direction",
+              "AI-assisted sales/marketing workflow benefits",
+              "Industry-specific growth case studies"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [
+              "clarify AI capabilities related to strategy"
+            ],
+            "budget_indicator": "Has budget",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000774856635059305",
+          "basic_info": {
+            "full_name": "Mark",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "",
+            "category": "null",
+            "keywords": [],
+            "severity_level": "null",
+            "impact_area": "null"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 0,
+            "completed_activities": [],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 70,
+            "response_pattern": "Very prompt, brief responses to all bot questions, no elaboration",
+            "interested_features": [
+              "Giveaway entry"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 5,
+            "pain_points": [],
+            "satisfaction_signals": [
+              "Prompt response",
+              "Willing to share info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Prompt user to share main business challenge to continue engagement and qualify lead.",
+            "suggested_content": "Short survey or simple quiz to uncover business pain points, personalized giveaway update.",
+            "ideal_follow_up_time": "Within 24 hours during business hours",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Highlight benefits of AI-driven marketing solutions",
+              "Ask specifically about top pain points in business operations or customer acquisition",
+              "Remind about next steps to secure full eligibility for giveaway"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "60 days",
+            "objections_to_address": [
+              "No challenge specified",
+              "Potential lack of urgency"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000315842837605614",
+          "basic_info": {
+            "full_name": "Noah Morton",
+            "company": "Sicotas",
+            "role": "Marketing Executive"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is content curation and influencer collaboration.",
+            "category": "Marketing Technology",
+            "keywords": [
+              "content curation",
+              "influencer collaboration",
+              "marketing"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "provided contact details",
+              "passed SMS verification",
+              "shared business website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 87,
+            "response_pattern": "Quick, brief, responsive to sequential prompts; minimal elaboration in answers.",
+            "interested_features": [
+              "AI sales assistant",
+              "giveaway entry"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "content curation",
+              "finding and working with influencers"
+            ],
+            "satisfaction_signals": [
+              "completed all requested steps up to verification",
+              "responded favorably to prompts"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Marketing (possible SaaS or digital marketing based on challenge and domain)",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call to demonstrate AI-driven content curation and influencer solutions, tying features to their business needs.",
+            "suggested_content": "Case studies on successful influencer collaboration and curated content workflows using AI.",
+            "ideal_follow_up_time": "Within 24-48 hours, mid-morning",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How AI can simplify content curation",
+              "Automating influencer outreach and collaboration",
+              "Real-world ROI from marketing automation"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Proof of effectiveness (ROI) of suggested solutions",
+              "Ease of integration with existing marketing processes"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000898209793519434",
+          "basic_info": {
+            "full_name": "Kyle Doran",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is people.",
+            "category": "Staff Training",
+            "keywords": [
+              "personnel",
+              "staff",
+              "people"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "Submitted contact details",
+              "Confirmed OTP",
+              "Provided business website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 92,
+            "response_pattern": "Very fast, concise, and responsive to every bot prompt with minimal delay; answers brief but comprehensive to requirements.",
+            "interested_features": [
+              "AI sales assistant",
+              "Prize/giveaway participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "Managing people",
+              "Staff issues"
+            ],
+            "satisfaction_signals": [
+              "Immediate engagement",
+              "Continued participation"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Marketing",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call focused on team/staffing solutions, referencing their interest in automation/AI.",
+            "suggested_content": "Content on people management automation, case study of AI improving team dynamics",
+            "ideal_follow_up_time": "Within 24 hours",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Pain points managing people/staff",
+              "Benefits of AI in automating team workflows",
+              "How AI assistant could free up your time as an owner"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Effectiveness of AI for people-related challenges"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000062117745170669",
+          "basic_info": {
+            "full_name": "Craig daniels",
+            "company": "Furniturefair.net",
+            "role": "Marketing Executive"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is the mattress business.",
+            "category": "Competition",
+            "keywords": [
+              "mattress",
+              "business",
+              "market",
+              "competition",
+              "growth"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Registration",
+              "Challenge submission",
+              "Contact info verification",
+              "Received instructions for next stage"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick, brief, and highly responsive to each prompt; succinct answers with no delays.",
+            "interested_features": [
+              "Prize registration",
+              "AI sales assistant"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Mattress business market challenges"
+            ],
+            "satisfaction_signals": [
+              "Provided all requested information without hesitation",
+              "Expressed willingness to proceed through steps promptly"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Medium",
+            "industry_vertical": "Furniture retail",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Challenger"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a call or meeting to demo AI solutions tailored for mattress business competition.",
+            "suggested_content": "Case studies or guides on AI-driven competitive strategies in the mattress/furniture industry.",
+            "ideal_follow_up_time": "Within 24 hours of initial contact, preferably during business hours.",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "AI sales assistant impact on mattress sales",
+              "Solutions for market competition",
+              "Real-world ROI stories from similar retailers"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Prove differentiation specifically for mattress segment"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000286379976589817",
+          "basic_info": {
+            "full_name": "Brian",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is keeping clients engaged.",
+            "category": "Customer Retention",
+            "keywords": [
+              "client engagement",
+              "retention",
+              "customer experience"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Registration",
+              "Phone verification",
+              "Submitted business website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 87,
+            "response_pattern": "Extremely quick replies, direct, and to-the-point; responses generally short but always engaged.",
+            "interested_features": [
+              "AI sales assistant",
+              "Contest participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Difficulty keeping clients engaged"
+            ],
+            "satisfaction_signals": [
+              "Cooperative in sharing info",
+              "Prompt in completing steps"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Retail (inferred from tools2winretail.com)",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Initiate a call or email to discuss specific AI-driven solutions to improve client engagement, referencing their company website.",
+            "suggested_content": "Case studies or guides about AI for client retention in retail.",
+            "ideal_follow_up_time": "Within 24 hours of contest entry (business hours).",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Challenges in keeping clients engaged",
+              "How AI sales assistants can enable better customer retention",
+              "Use cases in retail similar to their business"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Unclear decision-making authority",
+              "No explicit budget mentioned"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000490901186470997",
+          "basic_info": {
+            "full_name": "Jamie",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Traffic",
+            "category": "Lead Generation",
+            "keywords": [
+              "traffic",
+              "website",
+              "visitors"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Shared name",
+              "Shared email",
+              "Shared role",
+              "Shared main business challenge"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 92,
+            "response_pattern": "Very responsive; Jamie replied quickly to all prompts, responses were brief and direct.",
+            "interested_features": [
+              "Giveaway/contest entry",
+              "Product recommendations"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Low website traffic"
+            ],
+            "satisfaction_signals": [
+              "Active participation",
+              "Prompt engagement"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a targeted email offering lead generation tips or marketing advice tailored to driving traffic for small businesses.",
+            "suggested_content": "Lead generation eBook, traffic-boosting case studies, or small business marketing webinars.",
+            "ideal_follow_up_time": "Within 24 hours",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Lead generation strategies",
+              "Tools to increase traffic",
+              "Upcoming feature releases for growth"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "No budget information provided",
+              "Potential value versus effort ratio"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000360826054029456",
+          "basic_info": {
+            "full_name": "Sofia Cancio",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is getting customers and sales for their ecommerce website.",
+            "category": "Lead Generation",
+            "keywords": [
+              "getting customers",
+              "sales",
+              "ecommerce website"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 60,
+            "completed_activities": [
+              "Registration/Sign-up",
+              "Role identification",
+              "Main challenge sharing",
+              "Contact info and phone verification",
+              "Website submission"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick, succinct responses following prompts without delay; answers are brief but accurate.",
+            "interested_features": [
+              "AI sales assistant",
+              "Giveaway participation"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "Acquiring new customers",
+              "Generating sales"
+            ],
+            "satisfaction_signals": [
+              "Willingness to proceed step by step",
+              "Quick sharing of information"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Ecommerce",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a tailored call or demo focused on lead generation and AI-driven sales solutions for ecommerce.",
+            "suggested_content": "Case studies or guides on successful ecommerce AI lead generation; actionable tips for growing online customers.",
+            "ideal_follow_up_time": "Within 24 hours (soon after engagement, while interest is high)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Pain point: struggle with getting customers and sales",
+              "Introduction of AI sales assistant solutions",
+              "Evidence of outcome improvements for similar ecommerce owners"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 5,
+            "estimated_timeline": "Immediate",
+            "objections_to_address": [
+              "Demonstrated ROI/Effectiveness of solution"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000411394758029629",
+          "basic_info": {
+            "full_name": "Seth Atkinson",
+            "company": "",
+            "role": "Buyer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "The user's main challenge is traffic.",
+            "category": "Lead Generation",
+            "keywords": [
+              "traffic",
+              "customers",
+              "growth"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Provided name",
+              "Provided email",
+              "Provided role",
+              "Shared main business challenge",
+              "Provided phone number",
+              "Answered website status"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Quick, concise, and direct responses to every prompt with no prompting required.",
+            "interested_features": [
+              "Giveaway entry",
+              "Challenge/problem-solving assistance"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Neutral",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 6,
+            "pain_points": [
+              "Insufficient traffic"
+            ],
+            "satisfaction_signals": [
+              "Willingness to continue",
+              "Quick compliance"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Unknown",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer specific actionable strategies for increasing customer traffic, initiate a qualification call.",
+            "suggested_content": "Lead generation tactics, traffic optimization guides, industry case studies.",
+            "ideal_follow_up_time": "Within 24 hours during business hours",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Addressing traffic and lead generation challenges",
+              "Tailored strategies for buyers in similar roles",
+              "Exclusive offers or solutions tied to the giveaway engagement"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 3,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Need for clear ROI on traffic solutions"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Influences decision"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000213388819810505",
+          "basic_info": {
+            "full_name": "Grace",
+            "company": "",
+            "role": "Designer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Trying to build an eccommerce platform",
+            "category": "Marketing Technology",
+            "keywords": [
+              "ecommerce",
+              "platform",
+              "building"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Submitted name and email",
+              "Shared role",
+              "Shared main challenge",
+              "Provided phone number",
+              "Verified OTP"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 92,
+            "response_pattern": "Very quick, prompt responses to all bot requests with concise and direct answers.",
+            "interested_features": [
+              "Giveaway registration",
+              "Verification process",
+              "Business challenge sharing"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "Building ecommerce platform",
+              "Design & tech challenges"
+            ],
+            "satisfaction_signals": [
+              "Prompt interaction",
+              "Willingness to share contact info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "Ecommerce/Design",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Initiate a discovery call to understand specific pain points in building the ecommerce platform.",
+            "suggested_content": "Beginner's guide or resources for designers building ecommerce sites; case studies of successful design-led ecommerce builds.",
+            "ideal_follow_up_time": "Within 24 hours (morning-afternoon window)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Current status of ecommerce platform project",
+              "Specific tech/design hurdles faced",
+              "How AI tools or marketing tech could streamline their launch"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Tech complexity",
+              "Support options"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000170106931425317",
+          "basic_info": {
+            "full_name": "Ingo Winterhoff",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Entering the US market. We are a Germany-based online furniture B2C",
+            "category": "Lead Generation",
+            "keywords": [
+              "Entering US market",
+              "Germany-based",
+              "online furniture",
+              "B2C",
+              "market entry"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Initial entry",
+              "Provided name",
+              "Provided email",
+              "Provided role",
+              "Shared main challenge",
+              "Provided phone number",
+              "Phone verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 95,
+            "response_pattern": "Very quick, direct and complete responses to all prompts, no skipping or delays.",
+            "interested_features": [
+              "Giveaway entry",
+              "Multi-channel confirmation",
+              "Market expansion support"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "Market entry",
+              "US expansion risk"
+            ],
+            "satisfaction_signals": [
+              "Followed every step",
+              "Prompt response",
+              "Willingness to share info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Online Furniture Retail",
+            "tech_adoption_level": "Early Adopter",
+            "competitive_position": "Challenger"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Schedule a discovery call to discuss US market entry challenges and offer tailored go-to-market insights.",
+            "suggested_content": "Send a US furniture e-commerce market entry playbook and success case studies.",
+            "ideal_follow_up_time": "Within 48 hours (early work week in EU timezone)",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Steps to successful US entry for European brands",
+              "Digital channels and lead generation strategies",
+              "Support resources for international B2C expansion"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "60 days",
+            "objections_to_address": [
+              "Market unfamiliarity",
+              "US regulatory compliance"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000216590872689533",
+          "basic_info": {
+            "full_name": "Jill Blackburn",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Digital advertising",
+            "category": "Marketing Technology",
+            "keywords": [
+              "digital",
+              "advertising",
+              "technology"
+            ],
+            "severity_level": "High",
+            "impact_area": "Growth"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 100,
+            "completed_activities": [
+              "Provided name",
+              "Provided email",
+              "Provided role",
+              "Shared business challenge",
+              "Gave phone number",
+              "Completed SMS verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": true
+          },
+          "engagement_analysis": {
+            "overall_score": 98,
+            "response_pattern": "Very quick, concise and cooperative responses to all prompts; little delay, mostly short answers.",
+            "interested_features": [
+              "Giveaway entry",
+              "Verification flow"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "Difficulty with digital advertising"
+            ],
+            "satisfaction_signals": [
+              "Quick completion",
+              "Willingness to share contact info"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Offer a digital advertising/marketing technology consultation tailored for small business owners.",
+            "suggested_content": "Send a case study or guide on effective digital advertising for small businesses.",
+            "ideal_follow_up_time": "Within 24 hours of initial contact (shown highest responsiveness).",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "Digital advertising struggles",
+              "Owner/founder business perspective",
+              "Exclusive offers for giveaway participants"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Digital advertising ROI",
+              "Effectiveness of solutions"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000575445515227506",
+          "basic_info": {
+            "full_name": "Kim",
+            "company": "",
+            "role": "Owner/Founder"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "Shipping, inventory, keeping up",
+            "category": "Customer Retention",
+            "keywords": [
+              "shipping",
+              "inventory",
+              "keeping up"
+            ],
+            "severity_level": "High",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "Registration",
+              "Sharing main challenge",
+              "Supplying contact info (partial)"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 85,
+            "response_pattern": "Responded rapidly to all prompts; responses were concise and on-topic but not deeply detailed.",
+            "interested_features": [
+              "Giveaway entry",
+              "Business challenge support"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 7,
+            "pain_points": [
+              "fulfillment",
+              "inventory management",
+              "operational overload"
+            ],
+            "satisfaction_signals": [
+              "Active participation",
+              "Willingness to share information"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Small",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Reach out to Kim with helpful content and solutions around shipping and inventory automation, and follow up to complete phone verification.",
+            "suggested_content": "Guide or video on streamlining shipping and inventory for small businesses; invite to a demo/webinar tailored for founders.",
+            "ideal_follow_up_time": "Within 24-48 hours of initial sign-up",
+            "preferred_channel": "Email",
+            "key_talking_points": [
+              "How to automate shipping and inventory",
+              "Tips for owners/founders to 'keep up'",
+              "Benefits of our support/services for small business challenges"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "Desire for operational simplicity",
+              "Potential tech adoption pain points"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000620329239857865",
+          "basic_info": {
+            "full_name": "Rayna",
+            "company": "",
+            "role": "Designer"
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is inflation.",
+            "category": "Competition",
+            "keywords": [
+              "inflation",
+              "cost",
+              "pricing"
+            ],
+            "severity_level": "High",
+            "impact_area": "Revenue"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 50,
+            "completed_activities": [
+              "registration",
+              "phone verification"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick, concise responses to each prompt; followed instructions precisely and in sequence.",
+            "interested_features": [
+              "giveaway entry",
+              "verification process"
+            ],
+            "conversation_depth": "Medium",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 8,
+            "pain_points": [
+              "inflation affecting business costs"
+            ],
+            "satisfaction_signals": [
+              "expressed gratitude",
+              "positive confirmation on processes"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "Design",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Send a personalized follow-up by call or text after the event to thank her and offer content addressing inflation challenges for designers.",
+            "suggested_content": "Tips for combating inflation as a designer, cost-saving strategies, special offers relevant for small business designers.",
+            "ideal_follow_up_time": "Same day or within 24 hours after event participation.",
+            "preferred_channel": "Call",
+            "key_talking_points": [
+              "Acknowledge impact of inflation on design businesses",
+              "Offer resources to help with cost management",
+              "Provide info about future giveaways or networking opportunities"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 4,
+            "estimated_timeline": "30 days",
+            "objections_to_address": [
+              "price sensitivity due to inflation"
+            ],
+            "budget_indicator": "Limited budget",
+            "decision_maker_status": "Is decision maker"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  },
+  {
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": {
+        "contact_analytics": {
+          "contact_id": "1000901897380393533",
+          "basic_info": {
+            "full_name": "Jennifer",
+            "company": "",
+            "role": "Other..."
+          },
+          "challenge_analysis": {
+            "raw_challenge": "the user's main challenge is related to faith or spiritual guidance, as indicated by the response \"Jesus\" when asked about the biggest challenge in their business.",
+            "category": "Customer Retention",
+            "keywords": [
+              "faith",
+              "spiritual",
+              "Jesus"
+            ],
+            "severity_level": "Medium",
+            "impact_area": "Operations"
+          },
+          "scavenger_hunt_metrics": {
+            "participated": true,
+            "completion_rate": 80,
+            "completed_activities": [
+              "Provided name",
+              "Provided email",
+              "Provided role",
+              "Shared main challenge",
+              "Provided phone number & verified via OTP",
+              "Answered about website"
+            ],
+            "response_speed": "Fast",
+            "completed_full_hunt": false
+          },
+          "engagement_analysis": {
+            "overall_score": 90,
+            "response_pattern": "Quick, brief but cooperative responses to all prompts; minimal extra detail",
+            "interested_features": [
+              "Prize draw/contest participation",
+              "SMS-based verification"
+            ],
+            "conversation_depth": "Shallow",
+            "contact_sharing_willingness": "High"
+          },
+          "sentiment_metrics": {
+            "overall_sentiment": "Positive",
+            "sentiment_progression": "Steady",
+            "enthusiasm_level": 6,
+            "pain_points": [
+              "Need for spiritual guidance",
+              "Possible lack of business clarity"
+            ],
+            "satisfaction_signals": [
+              "Completed all requested registration tasks",
+              "Responsive to bot engagement"
+            ]
+          },
+          "industry_insights": {
+            "company_size_indicator": "Unknown",
+            "industry_vertical": "null",
+            "tech_adoption_level": "Mainstream",
+            "competitive_position": "Unknown"
+          },
+          "follow_up_strategy": {
+            "recommended_next_step": "Personalized outreach to connect on faith or purpose-driven business topics; offer encouraging content/resources and check in on her experience with the giveaway process.",
+            "suggested_content": "Articles or resources relating to faith-informed business leadership, inspirational content, or relevant community groups.",
+            "ideal_follow_up_time": "Within 1-2 business days after contest entry",
+            "preferred_channel": "Text",
+            "key_talking_points": [
+              "Congratulate and confirm contest entry",
+              "Acknowledge her unique challenge around faith",
+              "Offer supportive community or resources that align with her values"
+            ]
+          },
+          "sales_qualification": {
+            "lead_score": 2,
+            "estimated_timeline": "90+ days",
+            "objections_to_address": [
+              "Nontraditional business challenges",
+              "Potential lack of business infrastructure"
+            ],
+            "budget_indicator": "No budget indicated",
+            "decision_maker_status": "Unknown"
+          }
+        }
+      },
+      "refusal": null,
+      "annotations": []
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  }
+]
