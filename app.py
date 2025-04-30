@@ -29,70 +29,199 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for styling
+# Custom CSS for professional styling
 st.markdown("""
 <style>
+    /* Base styling for main content */
     .main .block-container {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         padding-bottom: 0rem;
+        max-width: 100%;
     }
+    
+    /* Typography */
     h1, h2, h3 {
         margin-top: 0;
         margin-bottom: 0.5rem;
+        font-family: 'Segoe UI', 'Arial', sans-serif;
+        letter-spacing: -0.01em;
     }
-    .metric-card {
-        background-color: #f0f2f6;
-        border-radius: 0.5rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
+    h1 {
+        color: #1565C0;
+        font-weight: 800;
     }
-    .st-emotion-cache-16txtl3 h4 {
-        font-weight: 700; 
-        margin-bottom: 0.5rem;
+    h2, h3 {
+        color: #0D47A1;
+        font-weight: 600;
     }
-    .css-1r6slb0 {border: 1px solid #ddd; border-radius: 0.5rem;}
-    .css-1544g2n {padding: 2rem 1rem;}
-    .st-af {font-weight: 600; padding: 0.5rem 0;}
     
-    /* Custom styling for different sections */
+    /* Metrics styling */
+    .metric-card {
+        background-color: #f0f8ff;
+        border-radius: 0.5rem;
+        padding: 1.2rem;
+        margin-bottom: 1rem;
+        border-left: 5px solid #1565C0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    /* Header and Subtitle styling */
+    .header-container {
+        background: linear-gradient(to right, #1565C0, #1E88E5);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: white;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .header-container h1 {
+        color: white;
+        margin: 0;
+    }
+    .subtitle {
+        color: rgba(255,255,255,0.9);
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+    
+    /* Dataframe styling */
+    .dataframe {
+        border-collapse: collapse;
+        width: 100%;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    }
+    .dataframe th {
+        background-color: #1976D2;
+        color: white;
+        font-weight: 600;
+        text-align: left;
+        padding: 0.7rem;
+    }
+    .dataframe td {
+        padding: 0.7rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .dataframe tr:nth-child(even) {
+        background-color: #f5f9ff;
+    }
+    .dataframe tr:hover {
+        background-color: #e1f5fe;
+    }
+    
+    /* Button styling */
+    .stButton > button {
+        background-color: #1565C0;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        transition: all 0.2s ease;
+    }
+    .stButton > button:hover {
+        background-color: #0D47A1;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .secondary-button > button {
+        background-color: #78909C;
+    }
+    .secondary-button > button:hover {
+        background-color: #546E7A;
+    }
+    .action-button > button {
+        background-color: #43A047;
+    }
+    .action-button > button:hover {
+        background-color: #2E7D32;
+    }
+    
+    /* Tab styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 1px;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+    .stTabs [data-baseweb="tab"] {
+        padding: 0.5rem 1rem;
+        background-color: #f0f8ff;
+    }
+    .stTabs [data-baseweb="tab"][aria-selected="true"] {
+        background-color: #1976D2;
+        color: white;
+        font-weight: 600;
+    }
+    
+    /* Custom styling for sentiment and scores */
     .sentiment-positive {color: #2E8B57; font-weight: bold;}
     .sentiment-neutral {color: #4682B4; font-weight: bold;}
     .sentiment-negative {color: #CD5C5C; font-weight: bold;}
     .sentiment-mixed {color: #9370DB; font-weight: bold;}
     
-    /* Colorful metrics */
-    .high-score {color: #2E8B57; font-weight: bold;}
-    .medium-score {color: #FFA500; font-weight: bold;}
-    .low-score {color: #CD5C5C; font-weight: bold;}
+    /* Score styling */
+    .high-score {color: #2E7D32; font-weight: bold;}
+    .medium-score {color: #F57F17; font-weight: bold;}
+    .low-score {color: #C62828; font-weight: bold;}
     
-    /* Make dataframes stand out */
-    .dataframe-container {
-        border: 1px solid #ddd;
-        border-radius: 0.5rem;
-        padding: 0.5rem;
-        margin-bottom: 1rem;
+    /* Card styling */
+    .info-card {
         background-color: white;
-    }
-    
-    /* Search bar styling */
-    .search-bar {
-        background-color: #f0f2f6;
-        padding: 1rem;
         border-radius: 0.5rem;
+        padding: 1.2rem;
         margin-bottom: 1rem;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     }
     
-    /* Highlight active tab */
-    button[data-baseweb="tab"][aria-selected="true"] {
-        background-color: rgba(30, 136, 229, 0.1);
-        font-weight: bold;
-    }
-    
-    /* Custom visualization container */
-    .viz-container {
-        border-radius: 0.5rem;
+    /* Search styling */
+    .search-container input {
+        border: 2px solid #1976D2;
+        border-radius: 0.3rem;
         padding: 0.5rem;
-        margin-bottom: 1rem;
+    }
+    .search-container input:focus {
+        border-color: #0D47A1;
+        box-shadow: 0 0 0 1px #0D47A1;
+    }
+    
+    /* Expander styling */
+    .streamlit-expanderHeader {
+        background-color: #f0f8ff;
+        border-radius: 0.3rem;
+        font-weight: 600;
+    }
+    
+    /* Conversation history styling */
+    .conversation-bubble {
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        max-width: 80%;
+    }
+    .user-message {
+        background-color: #e1f5fe;
+        border-bottom-right-radius: 0;
+        margin-left: auto;
+    }
+    .assistant-message {
+        background-color: #f5f5f5;
+        border-bottom-left-radius: 0;
+        margin-right: auto;
+    }
+    
+    /* Graph styling */
+    .js-plotly-plot .plotly {
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    }
+    
+    /* Selectbox styling */
+    .stSelectbox > div > div {
+        background-color: white;
+        border: 1px solid #1976D2;
+        border-radius: 0.3rem;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -114,18 +243,82 @@ if 'data' not in st.session_state:
         st.session_state.filters = {}
         st.session_state.search_term = ""
         st.session_state.current_view = "dashboard"
+        st.session_state.view_conversation = False  # Flag to show/hide conversation history
+        
+        # Simulate conversation history data for contacts
+        # In a real app, this would come from your database
+        st.session_state.conversations = {}
+        
+        # Generate sample conversations for each contact
+        for _, row in st.session_state.data.iterrows():
+            contact_id = row['contact_id']
+            
+            # Create a conversation based on the contact's challenge and sentiment
+            conversation = [
+                {
+                    "role": "user", 
+                    "content": f"Hi there! I'm interested in learning more about how your service can help with {row['raw_challenge']}."
+                },
+                {
+                    "role": "assistant", 
+                    "content": f"Thanks for reaching out! I'd be happy to discuss how we can address your challenge with {row['raw_challenge']}. Could you tell me a bit more about your specific needs?"
+                },
+                {
+                    "role": "user", 
+                    "content": f"Sure! We're specifically struggling with {row['challenge_keywords'].split(',')[0] if ',' in row['challenge_keywords'] else row['challenge_keywords']}."
+                },
+                {
+                    "role": "assistant", 
+                    "content": f"I understand. Many of our clients face similar challenges. Based on what you've shared, our {row['industry_vertical'] if row['industry_vertical'] != 'Unknown' else 'solutions'} would be a good fit for your needs."
+                }
+            ]
+            
+            # Add some variation based on sentiment
+            if row['overall_sentiment'] == 'Positive':
+                conversation.append({
+                    "role": "user",
+                    "content": "That sounds promising! What would the next steps be?"
+                })
+            elif row['overall_sentiment'] == 'Negative':
+                conversation.append({
+                    "role": "user",
+                    "content": "I'm not sure if that would work for us. We've tried similar solutions before."
+                })
+            else:
+                conversation.append({
+                    "role": "user",
+                    "content": "I'd need to learn more about how this would fit our specific situation."
+                })
+            
+            # Store the conversation
+            st.session_state.conversations[contact_id] = conversation
+            
     except Exception as e:
         st.error(f"⚠️ Error loading data: {str(e)}")
         st.session_state.data = pd.DataFrame()
         st.session_state.aggregate_metrics = {}
 
-# Application header with minimal design
-header_col1, header_col2 = st.columns([3, 1])
-with header_col1:
-    st.title("⚡ TEXT ANALYTICS POWERBOARD")
-with header_col2:
+# Professional header with gradient background
+st.markdown("""
+<div class="header-container">
+    <h1>⚡ TEXT ANALYTICS POWERBOARD</h1>
+    <div class="subtitle">Enterprise-grade contact analytics & insights platform</div>
+</div>
+""", unsafe_allow_html=True)
+
+# Key metrics display
+metrics_col1, metrics_col2, metrics_col3, metrics_col4, metrics_col5 = st.columns(5)
+with metrics_col1:
     total_contacts = len(st.session_state.data)
     st.metric("TOTAL CONTACTS", total_contacts)
+with metrics_col2:
+    st.metric("AVG ENGAGEMENT", f"{st.session_state.aggregate_metrics['avg_engagement_score']:.1f}")
+with metrics_col3:
+    st.metric("AVG LEAD SCORE", f"{st.session_state.aggregate_metrics['avg_lead_score']:.1f}")
+with metrics_col4:
+    st.metric("AVG ENTHUSIASM", f"{st.session_state.aggregate_metrics['avg_enthusiasm_level']:.1f}")
+with metrics_col5:
+    st.metric("AVG COMPLETION", f"{st.session_state.aggregate_metrics['avg_completion_rate']:.1f}%")
 
 # Top navigation using expander for filters
 with st.expander("🔍 SEARCH & FILTERS", expanded=False):
@@ -356,6 +549,36 @@ else:
                 **Company:** {contact_data['company'] if contact_data['company'] else 'Not specified'}  
                 **Contact ID:** {contact_data['contact_id']}
                 """)
+                
+        # Add conversation history section with a button to show/hide
+        st.markdown("---")
+        st.markdown("### 💬 Conversation History")
+        
+        # Button to show/hide conversation
+        if st.button("View Conversation History" if not st.session_state.view_conversation else "Hide Conversation History"):
+            st.session_state.view_conversation = not st.session_state.view_conversation
+        
+        # Display conversation if view_conversation is True
+        if st.session_state.view_conversation:
+            st.markdown('<div class="info-card">', unsafe_allow_html=True)
+            
+            # Get conversation for this contact
+            if st.session_state.selected_contact in st.session_state.conversations:
+                conversation = st.session_state.conversations[st.session_state.selected_contact]
+                
+                for message in conversation:
+                    role = message["role"]
+                    content = message["content"]
+                    
+                    # Style based on message role
+                    if role == "user":
+                        st.markdown(f'<div class="conversation-bubble user-message"><strong>{contact_data["full_name"]}:</strong><br>{content}</div>', unsafe_allow_html=True)
+                    else:
+                        st.markdown(f'<div class="conversation-bubble assistant-message"><strong>Support Agent:</strong><br>{content}</div>', unsafe_allow_html=True)
+            else:
+                st.info("No conversation history available for this contact.")
+                
+            st.markdown('</div>', unsafe_allow_html=True)
     
     else:
         # MAIN DASHBOARD VIEW
