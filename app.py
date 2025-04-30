@@ -298,13 +298,18 @@ if 'data' not in st.session_state:
         st.session_state.data = pd.DataFrame()
         st.session_state.aggregate_metrics = {}
 
-# Professional header with gradient background
-st.markdown("""
-<div class="header-container">
-    <h1>⚡ TEXT ANALYTICS POWERBOARD</h1>
-    <div class="subtitle">Enterprise-grade contact analytics & insights platform</div>
-</div>
-""", unsafe_allow_html=True)
+# Professional header with gradient background and logo
+header_cols = st.columns([1, 5])
+with header_cols[0]:
+    st.image("attached_assets/Untitled design-24.png", width=120)
+    
+with header_cols[1]:
+    st.markdown("""
+    <div class="header-container">
+        <h1>TEXT ANALYTICS POWERBOARD</h1>
+        <div class="subtitle">Enterprise-grade contact analytics & insights platform</div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Key metrics display
 metrics_col1, metrics_col2, metrics_col3, metrics_col4, metrics_col5 = st.columns(5)
@@ -581,18 +586,7 @@ else:
             st.markdown('</div>', unsafe_allow_html=True)
     
     else:
-        # MAIN DASHBOARD VIEW
-        # Create main metrics dashboard
-        metrics_col1, metrics_col2, metrics_col3, metrics_col4 = st.columns(4)
-        
-        with metrics_col1:
-            st.metric("AVG ENGAGEMENT SCORE", f"{st.session_state.aggregate_metrics['avg_engagement_score']:.1f}/100")
-        with metrics_col2:
-            st.metric("AVG LEAD SCORE", f"{st.session_state.aggregate_metrics['avg_lead_score']:.1f}/5")
-        with metrics_col3:
-            st.metric("AVG ENTHUSIASM", f"{st.session_state.aggregate_metrics['avg_enthusiasm_level']:.1f}/10")
-        with metrics_col4:
-            st.metric("AVG COMPLETION RATE", f"{st.session_state.aggregate_metrics['avg_completion_rate']:.1f}%")
+        # MAIN DASHBOARD VIEW - No duplicate metrics needed here
         
         # Dynamic tabs for different analytics views
         tab1, tab2, tab3, tab4, tab5 = st.tabs([
