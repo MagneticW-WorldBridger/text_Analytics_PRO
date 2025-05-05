@@ -3,12 +3,19 @@ import json
 import nltk
 from nltk.corpus import stopwords
 from collections import Counter
+import os
+import streamlit as st
 
 # Download NLTK resources
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
+@st.cache_resource
+def download_nltk_data():
+    try:
+        nltk.data.find('corpora/stopwords')
+    except LookupError:
+        nltk.download('stopwords')
+
+# Call the function to ensure NLTK data is downloaded
+download_nltk_data()
 
 def load_data(file_path='attached_assets/data.json'):
     """
@@ -21,8 +28,30 @@ def load_data(file_path='attached_assets/data.json'):
         pd.DataFrame: Processed data in a DataFrame format
     """
     try:
-        with open(file_path, 'r') as f:
-            data = json.load(f)
+        # Determine the absolute path to the data file
+        # This helps with different working directories in cloud environments
+        script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        absolute_path = os.path.join(script_dir, file_path)
+        
+        # Try different paths to handle both local and cloud deployments
+        possible_paths = [
+            file_path,            # Original path
+            absolute_path,        # Absolute path
+            os.path.basename(file_path)  # Just the filename in current directory
+        ]
+        
+        data = None
+        for path in possible_paths:
+            try:
+                with open(path, 'r') as f:
+                    data = json.load(f)
+                print(f"Successfully loaded data from: {path}")
+                break
+            except FileNotFoundError:
+                continue
+        
+        if data is None:
+            raise FileNotFoundError(f"Could not find data file. Tried: {possible_paths}")
         
         # Initialize list to hold processed data
         processed_data = []

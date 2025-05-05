@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import os
+import json
 from utils.data_processor import load_data, get_aggregate_metrics, extract_keywords, filter_dataframe, search_dataframe
 from utils.visualizations import (
     create_sentiment_distribution_chart,
@@ -294,9 +296,40 @@ if 'data' not in st.session_state:
             st.session_state.conversations[contact_id] = conversation
             
     except Exception as e:
-        st.error(f"⚠️ Error loading data: {str(e)}")
+        st.error(f"Error loading data: {str(e)}")
+        st.info("Check if 'attached_assets/data.json' exists and is correctly formatted.")
+        
+        # Create empty placeholders to prevent errors
         st.session_state.data = pd.DataFrame()
         st.session_state.aggregate_metrics = {}
+        st.session_state.challenge_keywords = {}
+        st.session_state.pain_points = {}
+        st.session_state.satisfaction_signals = {}
+        st.session_state.talking_points = {}
+        st.session_state.selected_contact = None
+        st.session_state.filters = {}
+        st.session_state.search_term = ""
+        st.session_state.current_view = "dashboard"
+        st.session_state.view_conversation = False
+        st.session_state.conversations = {}
+
+# Show warning if data is empty
+if st.session_state.data.empty:
+    st.warning("No data available. Please check if the data file exists and is accessible.")
+    # Display file upload option as a fallback
+    uploaded_file = st.file_uploader("Upload a JSON data file", type=['json'])
+    if uploaded_file is not None:
+        try:
+            data_json = json.load(uploaded_file)
+            with open('attached_assets/data.json', 'w') as f:
+                json.dump(data_json, f)
+            st.success("Data uploaded successfully! Please refresh the page.")
+            st.experimental_rerun()
+        except Exception as e:
+            st.error(f"Error processing uploaded file: {str(e)}")
+    
+    # Stop further execution if no data
+    st.stop()
 
 # Professional header with gradient background and logo
 header_cols = st.columns([1, 5])
