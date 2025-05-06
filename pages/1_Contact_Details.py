@@ -20,7 +20,7 @@ if 'data' not in st.session_state:
         st.session_state.data = pd.DataFrame()
 
 # Page header
-st.image("https://images.unsplash.com/photo-1518186285589-2f7649de83e0", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1518186285589-2f7649de83e0", use_container_width=True)
 st.title("Contact Details")
 st.subheader("Detailed view of individual contact profiles and their analytics")
 

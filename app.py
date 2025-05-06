@@ -228,30 +228,111 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Initialize session state for data and filtering
+# Initialize session state variables if they don't exist
+# This ensures all necessary session state variables are available
 if 'data' not in st.session_state:
     try:
+        # Load data
         st.session_state.data = load_data()
-        st.session_state.aggregate_metrics = get_aggregate_metrics(st.session_state.data)
-        
-        # Extract keywords for analysis
-        st.session_state.challenge_keywords = extract_keywords(st.session_state.data, 'challenge_keywords')
-        st.session_state.pain_points = extract_keywords(st.session_state.data, 'pain_points')
-        st.session_state.satisfaction_signals = extract_keywords(st.session_state.data, 'satisfaction_signals')
-        st.session_state.talking_points = extract_keywords(st.session_state.data, 'key_talking_points')
-        
-        # Initialize filters
-        st.session_state.selected_contact = None
-        st.session_state.filters = {}
-        st.session_state.search_term = ""
-        st.session_state.current_view = "dashboard"
-        st.session_state.view_conversation = False  # Flag to show/hide conversation history
-        
-        # Simulate conversation history data for contacts
-        # In a real app, this would come from your database
-        st.session_state.conversations = {}
-        
-        # Generate sample conversations for each contact
+    except Exception as e:
+        st.error(f"Error loading data: {str(e)}")
+        st.info("Check if 'attached_assets/data.json' exists and is correctly formatted.")
+        # Initialize with empty DataFrame if data loading fails
+        st.session_state.data = pd.DataFrame()
+
+# Initialize other session state variables regardless of data loading success
+# This ensures all required variables exist even if some are missing
+if 'aggregate_metrics' not in st.session_state or not st.session_state.aggregate_metrics:
+    try:
+        if not st.session_state.data.empty:
+            st.session_state.aggregate_metrics = get_aggregate_metrics(st.session_state.data)
+        else:
+            st.session_state.aggregate_metrics = {
+                'total_contacts': 0,
+                'avg_engagement_score': 0,
+                'avg_lead_score': 0, 
+                'avg_enthusiasm_level': 0,
+                'avg_completion_rate': 0,
+                'sentiment_distribution': {},
+                'challenge_categories': {},
+                'role_distribution': {},
+                'preferred_channels': {},
+                'industry_verticals': {}
+            }
+    except Exception as e:
+        st.error(f"Error generating metrics: {str(e)}")
+        st.session_state.aggregate_metrics = {
+            'total_contacts': len(st.session_state.data) if hasattr(st.session_state, 'data') else 0,
+            'avg_engagement_score': 0,
+            'avg_lead_score': 0,
+            'avg_enthusiasm_level': 0,
+            'avg_completion_rate': 0,
+            'sentiment_distribution': {},
+            'challenge_categories': {},
+            'role_distribution': {},
+            'preferred_channels': {},
+            'industry_verticals': {}
+        }
+
+# Initialize keyword analysis
+if 'challenge_keywords' not in st.session_state:
+    try:
+        if not st.session_state.data.empty and 'challenge_keywords' in st.session_state.data.columns:
+            st.session_state.challenge_keywords = extract_keywords(st.session_state.data, 'challenge_keywords')
+        else:
+            st.session_state.challenge_keywords = {}
+    except:
+        st.session_state.challenge_keywords = {}
+
+if 'pain_points' not in st.session_state:
+    try:
+        if not st.session_state.data.empty and 'pain_points' in st.session_state.data.columns:
+            st.session_state.pain_points = extract_keywords(st.session_state.data, 'pain_points')
+        else:
+            st.session_state.pain_points = {}
+    except:
+        st.session_state.pain_points = {}
+
+if 'satisfaction_signals' not in st.session_state:
+    try:
+        if not st.session_state.data.empty and 'satisfaction_signals' in st.session_state.data.columns:
+            st.session_state.satisfaction_signals = extract_keywords(st.session_state.data, 'satisfaction_signals')
+        else:
+            st.session_state.satisfaction_signals = {}
+    except:
+        st.session_state.satisfaction_signals = {}
+
+if 'talking_points' not in st.session_state:
+    try:
+        if not st.session_state.data.empty and 'key_talking_points' in st.session_state.data.columns:
+            st.session_state.talking_points = extract_keywords(st.session_state.data, 'key_talking_points')
+        else:
+            st.session_state.talking_points = {}
+    except:
+        st.session_state.talking_points = {}
+
+# Initialize UI state variables
+if 'selected_contact' not in st.session_state:
+    st.session_state.selected_contact = None
+
+if 'filters' not in st.session_state:
+    st.session_state.filters = {}
+
+if 'search_term' not in st.session_state:
+    st.session_state.search_term = ""
+
+if 'current_view' not in st.session_state:
+    st.session_state.current_view = "dashboard"
+
+if 'view_conversation' not in st.session_state:
+    st.session_state.view_conversation = False
+
+# Initialize conversations if needed
+if 'conversations' not in st.session_state:
+    st.session_state.conversations = {}
+    
+    # Generate sample conversations for each contact
+    if not st.session_state.data.empty:
         for _, row in st.session_state.data.iterrows():
             contact_id = row['contact_id']
             
@@ -294,24 +375,6 @@ if 'data' not in st.session_state:
             
             # Store the conversation
             st.session_state.conversations[contact_id] = conversation
-            
-    except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
-        st.info("Check if 'attached_assets/data.json' exists and is correctly formatted.")
-        
-        # Create empty placeholders to prevent errors
-        st.session_state.data = pd.DataFrame()
-        st.session_state.aggregate_metrics = {}
-        st.session_state.challenge_keywords = {}
-        st.session_state.pain_points = {}
-        st.session_state.satisfaction_signals = {}
-        st.session_state.talking_points = {}
-        st.session_state.selected_contact = None
-        st.session_state.filters = {}
-        st.session_state.search_term = ""
-        st.session_state.current_view = "dashboard"
-        st.session_state.view_conversation = False
-        st.session_state.conversations = {}
 
 # Show warning if data is empty
 if st.session_state.data.empty:
@@ -344,19 +407,31 @@ with header_cols[1]:
     </div>
     """, unsafe_allow_html=True)
 
-# Key metrics display
+# Key metrics display - wrap in safety checks for robustness
 metrics_col1, metrics_col2, metrics_col3, metrics_col4, metrics_col5 = st.columns(5)
 with metrics_col1:
     total_contacts = len(st.session_state.data)
     st.metric("TOTAL CONTACTS", total_contacts)
 with metrics_col2:
-    st.metric("AVG ENGAGEMENT", f"{st.session_state.aggregate_metrics['avg_engagement_score']:.1f}")
+    if 'avg_engagement_score' in st.session_state.aggregate_metrics:
+        st.metric("AVG ENGAGEMENT", f"{st.session_state.aggregate_metrics['avg_engagement_score']:.1f}")
+    else:
+        st.metric("AVG ENGAGEMENT", "N/A")
 with metrics_col3:
-    st.metric("AVG LEAD SCORE", f"{st.session_state.aggregate_metrics['avg_lead_score']:.1f}")
+    if 'avg_lead_score' in st.session_state.aggregate_metrics:
+        st.metric("AVG LEAD SCORE", f"{st.session_state.aggregate_metrics['avg_lead_score']:.1f}")
+    else:
+        st.metric("AVG LEAD SCORE", "N/A")
 with metrics_col4:
-    st.metric("AVG ENTHUSIASM", f"{st.session_state.aggregate_metrics['avg_enthusiasm_level']:.1f}")
+    if 'avg_enthusiasm_level' in st.session_state.aggregate_metrics:
+        st.metric("AVG ENTHUSIASM", f"{st.session_state.aggregate_metrics['avg_enthusiasm_level']:.1f}")
+    else:
+        st.metric("AVG ENTHUSIASM", "N/A")
 with metrics_col5:
-    st.metric("AVG COMPLETION", f"{st.session_state.aggregate_metrics['avg_completion_rate']:.1f}%")
+    if 'avg_completion_rate' in st.session_state.aggregate_metrics:
+        st.metric("AVG COMPLETION", f"{st.session_state.aggregate_metrics['avg_completion_rate']:.1f}%")
+    else:
+        st.metric("AVG COMPLETION", "N/A")
 
 # Top navigation using expander for filters
 with st.expander("🔍 SEARCH & FILTERS", expanded=False):

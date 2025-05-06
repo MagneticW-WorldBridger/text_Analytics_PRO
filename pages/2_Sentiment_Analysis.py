@@ -21,7 +21,7 @@ if 'data' not in st.session_state:
         st.session_state.data = pd.DataFrame()
 
 # Page header
-st.image("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3", use_container_width=True)
 st.title("Sentiment Analysis")
 st.subheader("Detailed analysis of contact sentiment and emotional indicators")
 

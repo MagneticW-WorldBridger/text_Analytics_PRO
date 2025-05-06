@@ -21,7 +21,7 @@ if 'data' not in st.session_state:
         st.session_state.data = pd.DataFrame()
 
 # Page header
-st.image("https://images.unsplash.com/photo-1526628953301-3e589a6a8b74", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1526628953301-3e589a6a8b74", use_container_width=True)
 st.title("Industry Insights")
 st.subheader("Analysis of industry verticals, company sizes, and technology adoption")
 

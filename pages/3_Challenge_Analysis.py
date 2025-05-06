@@ -21,7 +21,7 @@ if 'data' not in st.session_state:
         st.session_state.data = pd.DataFrame()
 
 # Page header
-st.image("https://images.unsplash.com/photo-1496449903678-68ddcb189a24", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1496449903678-68ddcb189a24", use_container_width=True)
 st.title("Challenge Analysis")
 st.subheader("Analysis of contact challenges, categories, and their impact")
 
