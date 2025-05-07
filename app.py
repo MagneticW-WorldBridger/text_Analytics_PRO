@@ -225,6 +225,39 @@ st.markdown("""
         border: 1px solid #1976D2;
         border-radius: 0.3rem;
     }
+
+    /* Glasmorphism effect for sidebar */
+    section[data-testid="stSidebar"] {
+        background: rgba(255, 255, 255, 0.55) !important;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+        backdrop-filter: blur(12px) saturate(180%);
+        -webkit-backdrop-filter: blur(12px) saturate(180%);
+        border-radius: 16px 0 0 16px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        margin: 8px 0 8px 8px;
+    }
+    /* Make the sidebar toggle arrow more visible and glasmorphic */
+    [data-testid="collapsedControl"] {
+        background: rgba(21, 101, 192, 0.85) !important;
+        color: white !important;
+        border-radius: 50% !important;
+        box-shadow: 0 0 16px #42a5f5, 0 0 0 4px rgba(255,255,255,0.25);
+        width: 38px !important;
+        height: 38px !important;
+        left: 0 !important;
+        z-index: 1001 !important;
+        border: 2px solid #fff;
+        transition: box-shadow 0.3s, background 0.3s;
+        animation: pulse 1.5s infinite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @keyframes pulse {
+        0% { box-shadow: 0 0 8px #1565C0, 0 0 0 4px rgba(255,255,255,0.25); }
+        50% { box-shadow: 0 0 32px #42a5f5, 0 0 0 8px rgba(255,255,255,0.18); }
+        100% { box-shadow: 0 0 8px #1565C0, 0 0 0 4px rgba(255,255,255,0.25); }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -920,3 +953,9 @@ else:
                 )
                 
                 st.plotly_chart(fig, use_container_width=True)
+
+# Add a callout at the top of the main page
+def show_sidebar_callout():
+    st.info("👈 Use the blue glowing arrow on the left to open the navigation menu!", icon="ℹ️")
+
+show_sidebar_callout()
