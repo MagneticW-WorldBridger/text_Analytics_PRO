@@ -562,7 +562,7 @@ else:
                 {contact_data['interested_features']}
                 """)
                 
-                st.markdown("### 🎯 Scavenger Hunt Performance")
+                st.markdown("### 🎯 5K Giveaway Performance")
                 participated = "✅ Yes" if contact_data['participated'] else "❌ No"
                 completed = "✅ Yes" if contact_data['completed_full_hunt'] else "❌ No"
                 
