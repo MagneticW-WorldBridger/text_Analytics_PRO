@@ -31,201 +31,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for professional styling
+# --- Glasmorphism and Sidebar Visibility Enhancements ---
 st.markdown("""
-<style>
-    /* Base styling for main content */
-    .main .block-container {
-        padding-top: 1.5rem;
-        padding-bottom: 0rem;
-        max-width: 100%;
-    }
-    
-    /* Typography */
-    h1, h2, h3 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        font-family: 'Segoe UI', 'Arial', sans-serif;
-        letter-spacing: -0.01em;
-    }
-    h1 {
-        color: #1565C0;
-        font-weight: 800;
-    }
-    h2, h3 {
-        color: #0D47A1;
-        font-weight: 600;
-    }
-    
-    /* Metrics styling */
-    .metric-card {
-        background-color: #f0f8ff;
-        border-radius: 0.5rem;
-        padding: 1.2rem;
-        margin-bottom: 1rem;
-        border-left: 5px solid #1565C0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    }
-    
-    /* Header and Subtitle styling */
-    .header-container {
-        background: linear-gradient(to right, #1565C0, #1E88E5);
-        padding: 1rem;
-        border-radius: 0.5rem;
-        color: white;
-        margin-bottom: 1.5rem;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    .header-container h1 {
-        color: white;
-        margin: 0;
-    }
-    .subtitle {
-        color: rgba(255,255,255,0.9);
-        font-size: 1rem;
-        margin-top: 0.3rem;
-    }
-    
-    /* Dataframe styling */
-    .dataframe {
-        border-collapse: collapse;
-        width: 100%;
-        border-radius: 0.5rem;
-        overflow: hidden;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    }
-    .dataframe th {
-        background-color: #1976D2;
-        color: white;
-        font-weight: 600;
-        text-align: left;
-        padding: 0.7rem;
-    }
-    .dataframe td {
-        padding: 0.7rem;
-        border-bottom: 1px solid #e0e0e0;
-    }
-    .dataframe tr:nth-child(even) {
-        background-color: #f5f9ff;
-    }
-    .dataframe tr:hover {
-        background-color: #e1f5fe;
-    }
-    
-    /* Button styling */
-    .stButton > button {
-        background-color: #1565C0;
-        color: white;
-        border: none;
-        border-radius: 0.3rem;
-        padding: 0.5rem 1rem;
-        font-weight: 600;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-        transition: all 0.2s ease;
-    }
-    .stButton > button:hover {
-        background-color: #0D47A1;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    .secondary-button > button {
-        background-color: #78909C;
-    }
-    .secondary-button > button:hover {
-        background-color: #546E7A;
-    }
-    .action-button > button {
-        background-color: #43A047;
-    }
-    .action-button > button:hover {
-        background-color: #2E7D32;
-    }
-    
-    /* Tab styling */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 1px;
-        border-radius: 0.5rem;
-        overflow: hidden;
-    }
-    .stTabs [data-baseweb="tab"] {
-        padding: 0.5rem 1rem;
-        background-color: #f0f8ff;
-    }
-    .stTabs [data-baseweb="tab"][aria-selected="true"] {
-        background-color: #1976D2;
-        color: white;
-        font-weight: 600;
-    }
-    
-    /* Custom styling for sentiment and scores */
-    .sentiment-positive {color: #2E8B57; font-weight: bold;}
-    .sentiment-neutral {color: #4682B4; font-weight: bold;}
-    .sentiment-negative {color: #CD5C5C; font-weight: bold;}
-    .sentiment-mixed {color: #9370DB; font-weight: bold;}
-    
-    /* Score styling */
-    .high-score {color: #2E7D32; font-weight: bold;}
-    .medium-score {color: #F57F17; font-weight: bold;}
-    .low-score {color: #C62828; font-weight: bold;}
-    
-    /* Card styling */
-    .info-card {
-        background-color: white;
-        border-radius: 0.5rem;
-        padding: 1.2rem;
-        margin-bottom: 1rem;
-        border: 1px solid #e0e0e0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    }
-    
-    /* Search styling */
-    .search-container input {
-        border: 2px solid #1976D2;
-        border-radius: 0.3rem;
-        padding: 0.5rem;
-    }
-    .search-container input:focus {
-        border-color: #0D47A1;
-        box-shadow: 0 0 0 1px #0D47A1;
-    }
-    
-    /* Expander styling */
-    .streamlit-expanderHeader {
-        background-color: #f0f8ff;
-        border-radius: 0.3rem;
-        font-weight: 600;
-    }
-    
-    /* Conversation history styling */
-    .conversation-bubble {
-        padding: 1rem;
-        border-radius: 1rem;
-        margin-bottom: 0.8rem;
-        max-width: 80%;
-    }
-    .user-message {
-        background-color: #e1f5fe;
-        border-bottom-right-radius: 0;
-        margin-left: auto;
-    }
-    .assistant-message {
-        background-color: #f5f5f5;
-        border-bottom-left-radius: 0;
-        margin-right: auto;
-    }
-    
-    /* Graph styling */
-    .js-plotly-plot .plotly {
-        border-radius: 0.5rem;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    }
-    
-    /* Selectbox styling */
-    .stSelectbox > div > div {
-        background-color: white;
-        border: 1px solid #1976D2;
-        border-radius: 0.3rem;
-    }
-
+    <style>
     /* Glasmorphism effect for sidebar */
     section[data-testid="stSidebar"] {
         background: rgba(255, 255, 255, 0.55) !important;
@@ -238,28 +46,42 @@ st.markdown("""
     }
     /* Make the sidebar toggle arrow more visible and glasmorphic */
     [data-testid="collapsedControl"] {
-        background: rgba(21, 101, 192, 0.85) !important;
+        background: rgba(21, 101, 192, 0.95) !important;
         color: white !important;
         border-radius: 50% !important;
-        box-shadow: 0 0 16px #42a5f5, 0 0 0 4px rgba(255,255,255,0.25);
-        width: 38px !important;
-        height: 38px !important;
-        left: 0 !important;
+        box-shadow: 0 0 32px #42a5f5, 0 0 0 8px rgba(255,255,255,0.25);
+        width: 56px !important;
+        height: 56px !important;
+        min-width: 56px !important;
+        min-height: 56px !important;
+        max-width: 56px !important;
+        max-height: 56px !important;
+        left: 10px !important;
+        top: 10px !important;
         z-index: 1001 !important;
-        border: 2px solid #fff;
+        border: 3px solid #fff;
+        font-size: 2rem !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        opacity: 1 !important;
         transition: box-shadow 0.3s, background 0.3s;
         animation: pulse 1.5s infinite;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    }
+    [data-testid="collapsedControl"] svg {
+        width: 2.5em !important;
+        height: 2.5em !important;
     }
     @keyframes pulse {
-        0% { box-shadow: 0 0 8px #1565C0, 0 0 0 4px rgba(255,255,255,0.25); }
-        50% { box-shadow: 0 0 32px #42a5f5, 0 0 0 8px rgba(255,255,255,0.18); }
-        100% { box-shadow: 0 0 8px #1565C0, 0 0 0 4px rgba(255,255,255,0.25); }
+        0% { box-shadow: 0 0 16px #1565C0, 0 0 0 8px rgba(255,255,255,0.25); }
+        50% { box-shadow: 0 0 48px #42a5f5, 0 0 0 16px rgba(255,255,255,0.18); }
+        100% { box-shadow: 0 0 16px #1565C0, 0 0 0 8px rgba(255,255,255,0.25); }
     }
-</style>
+    </style>
 """, unsafe_allow_html=True)
+
+# Add a callout at the very top of the main page
+st.info("👈 Use the blue glowing arrow on the left to open the navigation menu!", icon="ℹ️")
 
 # Initialize session state variables if they don't exist
 # This ensures all necessary session state variables are available
@@ -953,9 +775,3 @@ else:
                 )
                 
                 st.plotly_chart(fig, use_container_width=True)
-
-# Add a callout at the top of the main page
-def show_sidebar_callout():
-    st.info("👈 Use the blue glowing arrow on the left to open the navigation menu!", icon="ℹ️")
-
-show_sidebar_callout()
